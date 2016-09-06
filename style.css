@@ -1,13 +1,82 @@
 body {
-	background: linen;
+    background-color: grey;
+	padding: 0px;
+	margin: 0px;
 }
 
 p {
     text-align: center;
     color: red;
 }
+ 
+div img {
+    float: right; 
+    background-color: linen;
+    width: 200px;
+    border: 25px red;
+    padding: 25px;
+    margin: 25px;
 
-img {
-    text-align: center;
-    color: red;
+
 }
+
+div.pull-left img{
+   float:left;
+   margin-left : auto;
+   margin-right: auto;
+}
+
+
+    {background: }
+
+
+h1,h2,h3,h4{ color: red;
+
+ text-align: center; 
+}
+
+
+
+
+
+li{text-align: center;
+color: red;
+}
+
+div.containerTop {	
+	width: 1024px;
+	height: 1000px ;
+	border:solid 1px red;
+	margin:0px auto;
+    background-color: linen;
+}
+
+
+div.pictureLeft {
+	background: url('messi.jpg') no-repeat;
+	height:250px;
+	width:250px;
+	border:solid 1px blue;
+    float: left;
+    background-size: 302px 302px;
+}
+
+
+div.pictureRight {
+	background: url("IMG_0068.JPG") no-repeat;
+	height:300px;
+	width:300px;
+	border:solid 1px green;
+	background-size: 302px 302px;
+
+	float: right;
+
+}
+
+div.content{	
+	float:left ;
+	width: 420px;
+
+
+}
+
