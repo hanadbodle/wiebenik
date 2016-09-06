@@ -1,12 +1,12 @@
 body {
-    background-color: grey;
+    background-color: linen;
 	padding: 0px;
 	margin: 0px;
 }
 
 p {
-    text-align: center;
-    color: red;
+    text-align: left;
+    color: black;
 }
  
 div img {
@@ -30,29 +30,32 @@ div.pull-left img{
     {background: }
 
 
-h1,h2,h3,h4{ color: red;
+h2,h4{ color: red;
 
- text-align: center; 
+ 	text-align: left; 
+}
+
+h1,h3{color: red;
+
+ 	text-align: center; 
 }
 
 
 
-
-
-li{text-align: center;
-color: red;
+li{	text-align: center;
+	color: red;
 }
 
 div.containerTop {	
 	width: 1024px;
 	height: 1000px ;
-	border:solid 1px red;
+	
 	margin:0px auto;
     background-color: linen;
 }
 
 
-div.pictureLeft {
+div.pitctureRight {
 	background: url('messi.jpg') no-repeat;
 	height:250px;
 	width:250px;
